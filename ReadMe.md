@@ -8,15 +8,15 @@
 
 ## Usage
 
+Will scan that folder and its subdirectories for repositories to scan
 ```bash
-// will scan that folder and its subdirectories for repositories to scan
 git_commit_history -add "/path/to/folder/containing/local_repositories/"
 ```
 
 ### Then
 
+Will generate a CLI stats graph representing the last 6 months of activity for the passed email.
 ```bash
-// will generate a CLI stats graph representing the last 6 months of activity for the passed email.
 git_commit_history -email "your@email.com"
 ```
 
